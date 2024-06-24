@@ -1,0 +1,11 @@
+@url=http://localhost:3001/auth
+
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "email": "juca@gmail.com",
+    "password": "1234"
+}
